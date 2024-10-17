@@ -38,11 +38,25 @@
         font-display: swap;
         src: url('../Reference/Font/FormaDJRMono-Regular-Testing.otf');
     }
-    /* @font-face {
+    @font-face {
         font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
         font-display: swap;
         src: url('./Reference/Font/Inter-Regular.ttf') format('truetype');
-    } */
+    } 
+    @font-face {
+        font-family: 'Boogy';
+        font-style: italic;
+        font-weight: 400;
+        font-display: swap;
+        src: url('../Reference/Font/BoogyBrutTEST-BookItalic.otf') format('opentype');
+    }
+    @font-face {
+        font-family: 'GT America';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url('../Reference/Font/GT-America-Mono-Regular-Trial.otf') format('opentype');
+    }
   }

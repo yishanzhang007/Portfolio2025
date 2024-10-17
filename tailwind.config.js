@@ -59,6 +59,7 @@ module.exports = {
       tap: {
         'hoverText': 'hoverText 0.3s ease-in-out forwards' ,
       },
+      
     },
   }
 
