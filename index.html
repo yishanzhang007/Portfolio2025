@@ -71,7 +71,7 @@
         <!-- this is the first> -->
         <div class="col-span-1 md:col-span-2 pb-2 overflow-hidden md:px-2">
           <div class="relative overflow-hidden rounded-lg aspect-[2] group">
-            <a href="./shopify-tax.html" target="_blank">
+            <a href="./shopify-tax.html" target="_blank" class="shopify-link">
               <img
                 src="./Reference/Image/Shopify-Tax-0.png"
                 class="mb-1 aspect-[2] duration-300 hover-scale-110 group-hover:brightness-[0.8] group-hover:animate-hover-shadow"
@@ -79,13 +79,13 @@
             </a>
             <p
               class="absolute bottom-1 left-[10px] text-gray-100 bg-black bg-opacity-30 backdrop-blur-sm px-2 py-1 text-xs rounded-[4px] opacity-0 group-hover:animate-hoverText group-active:animate-hoverText group-focus:animate-hoverText group-tap:animate-hoverText"
-              onclick="this.classList.toggle('group-tap'); event.stopPropagation();"
+              onclick="toggleAnimation(this); event.stopPropagation();"
             >
               PRODUCT DESIGN
             </p>
             <p
               class="absolute bottom-1 right-[10px] text-gray-100 bg-black bg-opacity-30 backdrop-blur-sm px-2 py-1 text-xs rounded-[4px] font-mono opacity-0 group-hover:animate-hoverText group-active:animate-hoverText group-focus:animate-hoverText group-tap:animate-hoverText"
-              onclick="this.classList.toggle('group-tap'); event.stopPropagation();"
+              onclick="toggleAnimation(this); event.stopPropagation();"
             >
               CASE STUDY
             </p>
@@ -97,6 +97,20 @@
             Invoice management
           </p>
         </div>
+        <script>
+          function toggleAnimation(element) {
+            element.classList.toggle('group-tap');
+            if (element.classList.contains('group-tap')) {
+              element.addEventListener('click', function() {
+                window.location.href = './shopify-tax.html';
+              });
+            } else {
+              element.removeEventListener('click', function() {
+                window.location.href = './shopify-tax.html';
+              });
+            }
+          }
+        </script>
 
         <div class="col-span-1 md:col-span-1 md:px-1 pb-2 overflow-hidden">
           <div class="relative overflow-hidden rounded-lg aspect-square group">
