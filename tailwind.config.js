@@ -7,7 +7,7 @@ module.exports = {
       fontFamily: {
         'sans': ['Denim', 'ui-sans-serif', 'system-ui'],
         'serif': ['Ntype', 'Georgia'],
-        'mono': ['Forma', 'SFMono-Regular'],
+        'mono': ['GT America', 'SFMono-Regular'],
         'display': ['Ntype', 'ui-serif', 'Georgia'],
         'body': ['Denim', "Open Sans"],
         'ui': ['Inter', "Open Sans"]

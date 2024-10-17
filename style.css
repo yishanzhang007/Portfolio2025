@@ -48,6 +48,13 @@
     letter-spacing: 0.1em;
 }
 
+@font-face {
+    font-family: 'GT America';
+    src: url('./Reference/Font/GT-America-Regular-Trial.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
 body {
     font-family: 'Denim', sans-serif;
     font-size: 15px;
