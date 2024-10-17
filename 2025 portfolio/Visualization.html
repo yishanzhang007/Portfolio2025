@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Visualization</title>
+    <link rel="stylesheet" href="./src/output.css" />
+    <link rel="icon" href="./Reference/Image/Tab icon.svg" />
+
+  </head>
+
+  <body class="transition-opacity duration-500 opacity-0 ease-in-out" onload="document.body.style.opacity='1'">
+    <div id="loading">
+      <div class="spinner"></div>
+    </div>
+    <div class="w-auto mx-auto px-4 py-4 max-w-[1600px] relative">
+        <h1 class="text-xl text-gray-400 md:text-xl">DevRev <a href="./index.html"><span class="absolute right-4 top-5 inline-block w-3 h-3 bg-purple rounded-full max-w-[1600px]"></span></a></h1>
+        <h1 class="text-xl mb-40 text-gray-700 md:text-xl">
+        Visualization design system
+      </h1>
+      <!-- Add your content here -->
+      <div class="rounded-sm overflow-hidden">
+        <div class="mt-4">
+          <img
+            src="./Reference/Image/visualization-color.png"
+            alt="Visualization Colors"
+            class="rounded-lg overflow-hidden"
+          />
+        </div>
+        <div class="mt-2 text-secondary-gray text-xs">
+          <p>Colors</p>
+        </div>
+      </div>
+      <div class="rounded-sm overflow-hidden">
+        <div class="mt-8">
+          <img
+            src="./Reference/Image/Visualization-charts.png"
+            alt="Visualization Charts"
+            class="rounded-lg overflow-hidden`"
+          />
+        </div>
+        <div class="mt-2 text-secondary-gray text-xs">
+          <p>Charts</p>
+        </div>
+      </div>
+      <div class="rounded-sm overflow-hidden">
+        <div class="mt-8">
+          <img
+            src="./Reference/Image/Visualization-dashboard.png"
+            alt="Visualization Dashboard"
+            class="rounded-lg overflow-hidden"
+          />
+        </div>
+        <div class="mt-2 text-secondary-gray text-xs mb-8">
+          <p>Dashboard</p>
+        </div>
+      </div>
+    </div>
+    <div class="grid grid-cols-1 px-4 md:grid-cols-3 mx-auto mt-8">
+      <div class="col-span-1 md:aspect-square md:pr-3 pb-8">
+        <p class="font-medium">Background</p>
+        <hr class="border my-3 divide-black divide-y" />
+        <p>
+          After releasing our first product for support agencies, we began
+          receiving customer requests for out-of-the-box data analytics to help
+          them better manage their teams, customers, and resources.
+          <br />
+          <br />
+          I led the design of DevRev's data visualization system from 0 to 1
+          .This design system became the foundation for all dashboards and
+          reports. Working closely with engineers, I helped select the charting
+          library and prototyped the charts' appearance and functionality to
+          ensure the quality of the final product.
+        </p>
+      </div>
+      <div class="col-span-1 md:aspect-square pb-8 md:px-3">
+        <p class="font-medium mb-1">Info</p>
+        <hr class="border my-3 divide-black divide-y" />
+        <div class="flex justify-between">
+          <p class="inline pb-3">Timeline</p>
+          <p class="inline">2 months</p>
+        </div>
+        <hr class="divide-y divide-gray-900" />
+        <div class="flex justify-between">
+          <p class="inline pt-3">Responsibility</p>
+          <p class="inline pt-3">Lead Designer</p>
+        </div>
+        <div class="mr-0">
+          <p class="text-right pb-3">Research</p>
+        </div>
+        <hr class="divide-y divide-gray-900" />
+        <div class="flex justify-between">
+          <p class="inline pt-3">Team</p>
+          <p class="inline pt-3">Bhavani Hari</p>
+        </div>
+        <div class="mr-0">
+          <p class="text-right">Victor Kamanga</p>
+          <p class="text-right pb-3">Raghuram Venkata</p>
+        </div>
+      </div>
+      <div class="col-span-1 md:aspect-square md:pl-3 pb-8">
+        <p class="font-medium">Impact</p>
+        <hr class="border my-3 divide-black divide-y" />
+        <p>
+          We launched Shopify Tax EU in October 2024, and by January 2025, over
+          <b> 80%</b> of shops in the EU and UK use Shopify Tax, with an
+          estimated GMV of over <b>$3.1M</b> by end of 2025. In less than 2
+          months, over 200,000 invoices are generated.
+        </p>
+      </div>
+    </div>
+    <script>
+      // Page loading animation script
+      window.addEventListener("load", function () {
+        const loader = document.getElementById("loading");
+        loader.style.display = "none";
+      });
+    </script>
+  </body>
+</html>

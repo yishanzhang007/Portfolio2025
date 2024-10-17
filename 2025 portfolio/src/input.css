@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+      font-family: 'Denim';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url('../Reference/Font/DenimINKTRIAL-Regular.otf') format('opentype');
+    }
+    @font-face {
+        font-family: 'Denim';
+        font-style: medium;
+        font-weight: 500;
+        font-display: swap;
+        src: url('../Reference/Font/DenimINKTRIAL-Medium.otf') format('opentype');
+    }
+    @font-face {
+        font-family: 'Denim';
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url('../Reference/Font/DenimINKTRIAL-SemiBold.otf') format('opentype');
+    }
+    @font-face {
+        font-family: 'Ntype';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url('../Reference/Font/NType82-Regular.otf');
+    }
+    @font-face {
+        font-family: 'Forma';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url('../Reference/Font/FormaDJRMono-Regular-Testing.otf');
+    }
+    /* @font-face {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url('./Reference/Font/Inter-Regular.ttf') format('truetype');
+    } */
+  }
