@@ -56,6 +56,9 @@ module.exports = {
         'marquee-pause': 'marquee 20s linear infinite paused',
         'hover-shadow': 'hoverShadow 0.5s ease-in-out',
       },
+      tap: {
+        'hoverText': 'hoverText 0.3s ease-in-out forwards' ,
+      },
     },
   }
 

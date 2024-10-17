@@ -33,7 +33,7 @@
     <main>
       <div class="max-w-[1600px] mx-auto">
         <h1
-          class="py-4 px-4 text-2xl font-serif mb-8 md:text-[64px] md:pr-[240px] lg:pr-[2px] md:px-6 text-gray-700"
+          class="py-4 px-4 text-3xl font-serif mb-8 md:text-6xl md:pr-[240px] lg:pr-[2px] md:px-6 text-gray-700"
         >
           Architect turned designer based in SF<br />Creating thoughtful, simple
           and intuitive experience
@@ -78,12 +78,14 @@
               />
             </a>
             <p
-              class="absolute bottom-1 left-[10px] text-gray-100 bg-black bg-opacity-30 backdrop-blur-sm px-2 py-1 text-xs rounded-[4px] opacity-0 group-hover:animate-hoverText group-active:animate-hoverText group-focus:animate-hoverText"
+              class="absolute bottom-1 left-[10px] text-gray-100 bg-black bg-opacity-30 backdrop-blur-sm px-2 py-1 text-xs rounded-[4px] opacity-0 group-hover:animate-hoverText group-active:animate-hoverText group-focus:animate-hoverText group-tap:animate-hoverText"
+              onclick="this.classList.toggle('group-tap'); event.stopPropagation();"
             >
               PRODUCT DESIGN
             </p>
             <p
-              class="absolute bottom-1 right-[10px] text-gray-100 bg-black bg-opacity-30 backdrop-blur-sm px-2 py-1 text-xs rounded-[4px] font-mono opacity-0 group-hover:animate-hoverText group-active:animate-hoverText group-focus:animate-hoverText"
+              class="absolute bottom-1 right-[10px] text-gray-100 bg-black bg-opacity-30 backdrop-blur-sm px-2 py-1 text-xs rounded-[4px] font-mono opacity-0 group-hover:animate-hoverText group-active:animate-hoverText group-focus:animate-hoverText group-tap:animate-hoverText"
+              onclick="this.classList.toggle('group-tap'); event.stopPropagation();"
             >
               CASE STUDY
             </p>
