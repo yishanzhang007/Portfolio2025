@@ -243,7 +243,7 @@ code,
 kbd,
 samp,
 pre {
-  font-family: GT America, SFMono-Regular;
+  font-family: GT America mono, SFMono-Regular;
   /* 1 */
   font-feature-settings: normal;
   /* 2 */
@@ -840,12 +840,12 @@ video {
   border-radius: 0.5rem;
 }
 
-.rounded-sm {
-  border-radius: 0.125rem;
-}
-
 .rounded-md {
   border-radius: 0.375rem;
+}
+
+.rounded-sm {
+  border-radius: 0.125rem;
 }
 
 .border {
@@ -916,7 +916,7 @@ video {
 }
 
 .font-mono {
-  font-family: GT America, SFMono-Regular;
+  font-family: GT America mono, SFMono-Regular;
 }
 
 .font-serif {
@@ -1099,6 +1099,10 @@ video {
     margin-bottom: 2rem;
   }
 
+  .md\:mt-10 {
+    margin-top: 2.5rem;
+  }
+
   .md\:mt-3 {
     margin-top: 0.75rem;
   }
@@ -1109,10 +1113,6 @@ video {
 
   .md\:mt-8 {
     margin-top: 2rem;
-  }
-
-  .md\:mt-10 {
-    margin-top: 2.5rem;
   }
 
   .md\:aspect-square {
