@@ -57,6 +57,6 @@
         font-style: normal;
         font-weight: 400;
         font-display: swap;
-        src: url('../Reference/Font/GT-America-Mono-Regular-Trial.otf') format('opentype');
+        src: url('../Reference/Font/GT-America-Mono-Regular-Trial.otf');
     }
   }

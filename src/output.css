@@ -647,7 +647,7 @@ video {
 
   font-display: swap;
 
-  src: url('../Reference/Font/GT-America-Mono-Regular-Trial.otf') format('opentype');
+  src: url('../Reference/Font/GT-America-Mono-Regular-Trial.otf');
 }
 
 .absolute {
